@@ -97,17 +97,17 @@ body {
   & > .fingertips {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
-    & > div {
+    & > div { 
       min-height: 920px;
-      max-width: 720px;
+      max-width: 650px;
       width: 100%;
     }
 
     & > :nth-child(1) {
-      max-width: 720px;
+      max-width: 650px;
       width: 100%;
       min-height: 550px;
       padding-left: 6%;
@@ -502,11 +502,13 @@ body {
   & > .delicious {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     min-height: 854px;
+    background: #121212;
 
     & > :nth-child(1) {
       min-height: 500px;
-      max-width: 764px;
+      max-width: 650px;
       width: 100%;
       color: #ffffff;
       background: #121212;
@@ -550,7 +552,7 @@ body {
     }
 
     & > :nth-child(2) {
-      max-width: 676px;
+      max-width: 650px;
       min-height: 500px;
       width: 100%;
       background: url(../images/delicious.png) center center / cover, #121212;
@@ -1039,8 +1041,8 @@ body {
     & > :nth-child(3) {
       max-width: 500px;
       width: 95%;
-      &>h3{
-        margin-left:5px;
+      & > h3 {
+        margin-left: 5px;
       }
 
       & > div {
@@ -1048,7 +1050,6 @@ body {
         flex-wrap: wrap;
         justify-content: space-evenly;
 
-     
         & > div {
           width: 240px;
           display: flex;
@@ -1057,7 +1058,7 @@ body {
 
           & > h4 {
             font-weight: 400;
-            font-size: 18px; 
+            font-size: 18px;
             line-height: 24px;
 
             /* identical to box height, or 133% */
