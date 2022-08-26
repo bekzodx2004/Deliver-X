@@ -871,8 +871,8 @@ body {
     min-height: 680px;
     background-image: repeating-linear-gradient(
       180deg,
-      white 0px 130px,
-      black 130px 5000px
+      #fafafa 0px 130px,
+      #121212 130px 5000px
     );
 
     & > :nth-child(1) {
@@ -924,10 +924,62 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+
+    & > div {
+      margin-top: 70px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      & > button {
+        background: #ff5634;
+        border: 1px solid #ff5634;
+        border-radius: 14px;
+        color: #ffffff;
+
+        font-size: 16px;
+        width: 251px;
+        height: 64px;
+        margin: 13px;
+      }
+
+      & > :nth-child(1) {
+        width: 208px;
+      }
+    }
+
+    & > :nth-child(1) {
+      max-width: 439px;
+      width: 95%;
+
+      & > p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 30px;
+
+        /* or 250% */
+
+        color: #656565;
+      }
+    }
   }
 
   & > .footer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    & > div {
+      margin-top: 10vh;
+      & > h3 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 39px;
+        /* identical to box height, or 110% */
+
+        color: #121212;
+      }
+    }
 
     & > :nth-child(1) {
       display: flex;
@@ -939,6 +991,23 @@ body {
         & > div {
           display: flex;
           flex-direction: column;
+
+          & > a {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 20px;
+
+            /* identical to box height, or 111% */
+
+            color: #656565;
+            text-decoration: none;
+            margin-bottom: 17px;
+          }
+
+          & > a:hover {
+            color: #ff5634;
+            text-shadow: 0 0 5px;
+          }
         }
       }
     }
@@ -947,24 +1016,83 @@ body {
       & > div {
         display: flex;
         flex-direction: column;
+
+        & > a {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 20px;
+
+          /* identical to box height, or 111% */
+
+          color: #656565;
+          text-decoration: none;
+          margin-bottom: 17px;
+        }
+
+        & > a:hover {
+          color: #ff5634;
+          text-shadow: 0 0 5px;
+        }
       }
     }
 
     & > :nth-child(3) {
+      max-width: 500px;
+      width: 95%;
+      &>h3{
+        margin-left:5px;
+      }
+
       & > div {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly;
 
+     
         & > div {
+          width: 240px;
           display: flex;
           align-items: center;
+          margin: 5px;
+
+          & > h4 {
+            font-weight: 400;
+            font-size: 18px; 
+            line-height: 24px;
+
+            /* identical to box height, or 133% */
+
+            color: #121212;
+            margin-left: 18px;
+          }
         }
       }
     }
   }
+  & > .chiziq {
+    max-width: 1222px;
+    margin: auto;
+    border-top: 1px solid #cacaca;
+
+    margin-top: 77px;
+  }
 
   & > .copyright {
+    padding-top: 32px;
     text-align: center;
+    padding-bottom: 32px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    /* identical to box height, or 167% */
+    text-align: center;
+
+    color: #656565;
+
+    & > font {
+      color: #ff5634;
+    }
   }
 }
-
