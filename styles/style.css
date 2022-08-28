@@ -23,17 +23,18 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  padding: 25px;
 }
 .sayt > .header > img {
-  margin: 36px;
+  margin: 10px;
 }
 .sayt > .header > ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 39px;
-  margin-bottom: 39px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .sayt > .header > ul > li {
   list-style: none;
@@ -45,7 +46,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
   /* identical to box height, or 112% */
   color: #121212;
 }
@@ -61,7 +61,7 @@ body {
   border-radius: 12px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
+  height: 18px;
   /* identical to box height, or 112% */
   text-align: center;
   color: #121212;
@@ -74,7 +74,6 @@ body {
   border-radius: 12px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
   /* identical to box height, or 112% */
   text-align: center;
   color: #ffffff;
@@ -105,7 +104,6 @@ body {
 .sayt > .fingertips > :nth-child(1) > h5 {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   letter-spacing: 1.08px;
   text-transform: uppercase;
@@ -114,7 +112,6 @@ body {
 .sayt > .fingertips > :nth-child(1) > h2 {
   font-weight: 700;
   font-size: 62px;
-  line-height: 72px;
   /* or 116% */
   margin-top: 28px;
   color: #121212;
@@ -122,7 +119,6 @@ body {
 .sayt > .fingertips > :nth-child(1) > p {
   font-weight: 400;
   font-size: 12px;
-  line-height: 30px;
   /* or 250% */
   color: #656565;
   margin-top: 16px;
@@ -194,12 +190,11 @@ body {
 .sayt > .restaurant {
   margin-top: 120px;
   text-align: center;
-  padding-bottom: 8vh;
+  padding-bottom: 80px;
 }
 .sayt > .restaurant > h5 {
   font-weight: 400;
   font-size: 20px;
-  line-height: 22px;
   /* identical to box height, or 110% */
   text-align: center;
   margin-bottom: 58px;
@@ -215,18 +210,17 @@ body {
 }
 .sayt > .system {
   max-width: 1222px;
-  width: 95%;
+  width: 98%;
   border-top: 1px solid #cacaca;
   border-bottom: 1px solid #cacaca;
   margin: auto;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
 }
 .sayt > .system > h5 {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   text-align: center;
   letter-spacing: 1.08px;
@@ -239,7 +233,6 @@ body {
   margin: auto;
   font-weight: 700;
   font-size: 44px;
-  line-height: 54px;
   /* identical to box height, or 123% */
   text-align: center;
   color: #121212;
@@ -247,7 +240,6 @@ body {
 .sayt > .system > p {
   font-weight: 400;
   font-size: 12px;
-  line-height: 30px;
   /* identical to box height, or 250% */
   text-align: center;
   color: #656565;
@@ -259,17 +251,16 @@ body {
   justify-content: space-evenly;
 }
 .sayt > .system > .system__cards > .system__cards__card {
-  max-width: 344px;
-  width: 95%;
+  max-width: 320px;
+  width: 98%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 80px;
 }
 .sayt > .system > .system__cards > .system__cards__card > h2 {
   font-weight: 400;
   font-size: 28px;
-  line-height: 40px;
   /* or 143% */
   text-align: center;
   color: #121212;
@@ -277,13 +268,12 @@ body {
 .sayt > .system > .system__cards > .system__cards__card > p {
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
   /* or 167% */
   text-align: center;
   color: #656565;
 }
 .sayt > .system > button {
-  margin-top: 2vh;
+  margin-top: 30px;
 }
 .sayt > .system > :nth-child(5) {
   background: #ff5634;
@@ -297,7 +287,7 @@ body {
   text-align: center;
   margin: 13px;
   color: #ffffff;
-  margin-top: 2vh;
+  margin-top: 50px;
 }
 .sayt > .system > :nth-child(6) {
   background: #ffffff;
@@ -310,13 +300,13 @@ body {
   text-align: center;
   margin: 13px;
   color: #121212;
-  margin-top: 2vh;
+  margin-top: 30px;
   width: 205px;
   height: 73px;
 }
 .sayt > .great {
   text-align: center;
-  padding-bottom: 10vh;
+  padding-bottom: 100px;
 }
 .sayt > .great > .great__cards {
   display: flex;
@@ -327,12 +317,11 @@ body {
   text-align: left;
   max-width: 611px;
   width: 95%;
-  margin-top: 10vh;
+  margin-top: 100px;
 }
 .sayt > .great > .great__cards > :nth-child(1) > h2 {
   font-weight: 700;
   font-size: 44px;
-  line-height: 54px;
   /* or 123% */
   max-width: 479px;
   color: #121212;
@@ -340,7 +329,6 @@ body {
 .sayt > .great > .great__cards > :nth-child(1) > p {
   font-weight: 400;
   font-size: 12px;
-  line-height: 30px;
   /* or 250% */
   color: #656565;
 }
@@ -357,7 +345,6 @@ body {
 .sayt > .great > .great__cards > :nth-child(1) > div > div > h3 {
   font-weight: 400;
   font-size: 22px;
-  line-height: 28px;
   /* identical to box height, or 127% */
   color: #121212;
   margin-top: 25px;
@@ -365,7 +352,6 @@ body {
 .sayt > .great > .great__cards > :nth-child(1) > div > div > p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 30px;
   margin-top: 14px;
   /* identical to box height, or 214% */
   color: #656565;
@@ -376,7 +362,7 @@ body {
   max-width: 611px;
   width: 95%;
   overflow: hidden;
-  margin-top: 5vh;
+  margin-top: 80px;
 }
 .sayt > .great > .great__cards > :nth-child(2) > :nth-child(1) {
   margin-right: -150px;
@@ -397,17 +383,15 @@ body {
   border-radius: 16px;
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   text-align: center;
   width: 247px;
   color: #ffffff;
-  margin-top: 5vh;
+  margin-top: 80px;
 }
 .sayt > .great > :nth-child(3) {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   text-align: center;
   color: #121212;
@@ -416,7 +400,7 @@ body {
   box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
   border-radius: 16px;
   width: 205px;
-  margin-top: 5vh;
+  margin-top: 80px;
 }
 .sayt > .delicious {
   display: flex;
@@ -443,18 +427,15 @@ body {
 .sayt > .delicious > :nth-child(1) > div > h2 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 66px;
   /* or 118% */
 }
 .sayt > .delicious > :nth-child(1) > div > p {
   font-weight: 400;
   font-size: 12px;
-  line-height: 30px;
 }
 .sayt > .delicious > :nth-child(1) > div > button {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   text-align: center;
   margin-top: 27px;
@@ -475,12 +456,11 @@ body {
   max-width: 1216px;
   margin: auto;
   text-align: center;
-  padding-top: 8vh;
+  padding-top: 80px;
 }
 .sayt > .features > h5 {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   text-align: center;
   letter-spacing: 1.08px;
@@ -512,23 +492,20 @@ body {
 .sayt > .features > .features__cards > .features__cards__card {
   max-width: 344px;
   width: 95%;
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .sayt > .features > .features__cards > .features__cards__card > h3 {
   font-weight: 400;
   font-size: 28px;
-  line-height: 40px;
   /* or 143% */
   text-align: center;
   color: #121212;
-  margin-top: 1vh;
+  margin-top: 15px;
 }
 .sayt > .features > .features__cards > .features__cards__card > p {
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
-  /* or 167% */
   text-align: center;
   color: #656565;
   margin-top: 14px;
@@ -555,10 +532,12 @@ body {
   font-size: 18px;
 }
 .sayt > .hassle {
-  padding-top: 20vh;
-  padding-bottom: 10vh;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 .sayt > .hassle > .hassle__block {
+  width: 98%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -567,7 +546,8 @@ body {
 .sayt > .hassle > .hassle__block > .hassle__block__card {
   max-width: 600px;
   width: 95%;
-  margin-top: 10vh;
+  margin: 5px;
+  margin-top: 100px;
 }
 .sayt > .hassle > .hassle__block > .hassle__block__card > img {
   max-width: 600px;
@@ -576,33 +556,29 @@ body {
 .sayt > .hassle > .hassle__block > .hassle__block__card h3 {
   font-weight: 700;
   font-size: 44px;
-  line-height: 54px;
   /* or 123% */
   color: #121212;
 }
 .sayt > .hassle > .hassle__block > .hassle__block__card > p {
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
   /* or 167% */
   color: #656565;
 }
 .sayt > .hassle > .hassle__block > .hassle__block__card > div {
-  margin-top: 2vh;
+  margin-top: 30px;
   display: flex;
   align-items: center;
 }
 .sayt > .hassle > .hassle__block > .hassle__block__card > div > h4 {
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
   /* identical to box height, or 142% */
   color: #121212;
 }
 .sayt > .hassle > .hassle__block > .hassle__block__card > div > p {
   font-weight: 400;
   font-size: 13px;
-  line-height: 30px;
   /* identical to box height, or 231% */
   margin-top: 14px;
   color: #656565;
@@ -611,8 +587,8 @@ body {
   flex-direction: row-reverse;
 }
 .sayt > .clients {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: #fafafa;
 }
 .sayt > .clients > :nth-child(1) {
@@ -629,7 +605,6 @@ body {
 .sayt > .clients > :nth-child(1) > :nth-child(1) > h3 {
   font-weight: 400;
   font-size: 44px;
-  line-height: 54px;
   /* identical to box height, or 123% */
   color: #121212;
 }
@@ -665,7 +640,7 @@ body {
   color: #121212;
 }
 .sayt > .clients > .clients__cards {
-  padding-top: 2vh;
+  padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -697,14 +672,12 @@ body {
 .sayt > .clients > .clients__cards > .clients__cards__card > :nth-child(1) > :nth-child(1) > :nth-child(2) > h4 {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   color: #121212;
 }
 .sayt > .clients > .clients__cards > .clients__cards__card > :nth-child(1) > :nth-child(1) > :nth-child(2) > h5 {
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
   /* identical to box height, or 112% */
   color: #ff5634;
   margin-top: 6px;
@@ -718,7 +691,6 @@ body {
 .sayt > .clients > .clients__cards > .clients__cards__card > p {
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
   /* or 167% */
   margin-top: 30px;
   color: #656565;
@@ -727,7 +699,7 @@ body {
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   min-height: 680px;
   background-image: repeating-linear-gradient(180deg, #fafafa 0px 130px, #121212 130px 5000px);
 }
@@ -737,14 +709,12 @@ body {
 .sayt > .tel2 > :nth-child(1) > h1 {
   font-weight: 400;
   font-size: 56px;
-  line-height: 66px;
   /* or 118% */
   color: #ffffff;
 }
 .sayt > .tel2 > :nth-child(1) > p {
   font-weight: 400;
   font-size: 12px;
-  line-height: 30px;
   /* or 250% */
   margin-top: 20px;
   color: #ffffff;
@@ -760,7 +730,7 @@ body {
   font-size: 18px;
 }
 .sayt > .tel2 > .tel2__card {
-  max-width: 672px;
+  max-width: 550px;
   width: 95%;
   background-color: transparent;
   margin: 10px;
@@ -800,7 +770,6 @@ body {
 .sayt > .app > :nth-child(1) > p {
   font-weight: 400;
   font-size: 12px;
-  line-height: 30px;
   /* or 250% */
   color: #656565;
 }
@@ -810,12 +779,11 @@ body {
   justify-content: space-evenly;
 }
 .sayt > .footer > div {
-  margin-top: 10vh;
+  margin-top: 100px;
 }
 .sayt > .footer > div > h3 {
   font-weight: 400;
   font-size: 20px;
-  line-height: 22px;
   margin-bottom: 39px;
   /* identical to box height, or 110% */
   color: #121212;
@@ -834,7 +802,6 @@ body {
 .sayt > .footer > :nth-child(1) > div > div > a {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   color: #656565;
   text-decoration: none;
@@ -851,7 +818,6 @@ body {
 .sayt > .footer > :nth-child(2) > div > a {
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
   /* identical to box height, or 111% */
   color: #656565;
   text-decoration: none;
@@ -882,7 +848,6 @@ body {
 .sayt > .footer > :nth-child(3) > div > div > h4 {
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
   /* identical to box height, or 133% */
   color: #121212;
   margin-left: 18px;
@@ -899,7 +864,6 @@ body {
   padding-bottom: 32px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 30px;
   /* identical to box height, or 167% */
   text-align: center;
   color: #656565;
