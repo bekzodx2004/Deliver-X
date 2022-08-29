@@ -147,6 +147,13 @@
   .sayt > .great > button {
     margin-top: 30px !important;
   }
+  .sayt > .delicious {
+    min-height: 300px;
+  }
+  .sayt > .delicious > :nth-child(1) > div > h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
   .sayt > .clients {
     text-align: center;
   }
@@ -155,5 +162,8 @@
   }
   .sayt > .clients > .clients__cards > .clients__cards__card {
     max-width: 390px;
+  }
+  .sayt > .tel2 > :nth-child(1) > h1 {
+    font-size: 30px;
   }
 }/*# sourceMappingURL=responsive.css.map */
