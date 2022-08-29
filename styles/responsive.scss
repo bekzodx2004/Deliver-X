@@ -131,25 +131,59 @@
 
 @media screen and(max-width:768px ) {
   .sayt {
-    &>.header{
+    & > .header {
       padding-left: 0;
       padding-right: 0;
       padding-bottom: 0;
-
     }
 
-   &> .fingertips{
+    & > .fingertips {
+      & > :nth-child(1) {
+        margin-top: 0;
 
-    &>:nth-child(1){
-      margin-top: 0;
+        & > h2 {
+          font-size: 30px;
+        }
+        & > p {
+          margin-bottom: 15px;
+        }
 
-      &>h2{
-        font-size: 30px;
+        & > div {
+          margin-top: 20px;
+        }
+        min-height: 400px;
+      }
+
+      & > :nth-child(2) {
+        min-height: 400px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        & > img {
+          width: auto;
+          height: 400px;
+        }
       }
     }
 
+    & > .restaurant {
+      padding-top: 40px;
+      padding-bottom: 40px;
 
-   }
+      & > h5 {
+        margin-bottom: 30px;
+      }
+
+      & > div {
+        & > img {
+          margin: 20px;
+        }
+      }
+    }
+
+    & > .hassle {
+      padding: 0;
+    }
     & > .clients {
       & > .clients__cards {
         justify-content: space-evenly;
@@ -163,7 +197,30 @@
 
 @media screen and(max-width:576px ) {
   .sayt {
+    & > .system {
+      & > h2 {
+        font-size: 30px;
+      }
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    & > .great {
+      padding-bottom: 30px;
+      & > .great__cards {
+        & > .great__cards__card {
+          margin-top: 50px;
+          & > h2 {
+            font-size: 30px;
+          }
+        }
+      }
+      & > button {
+        margin-top: 30px !important;
+      }
+    }
     & > .clients {
+      text-align: center;
       & > .clients__cards {
         justify-content: space-evenly;
         & > .clients__cards__card {
