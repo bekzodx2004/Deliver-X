@@ -87,9 +87,38 @@
   }
   .sayt > .fingertips > :nth-child(1) {
     margin-top: 0;
+    min-height: 400px;
   }
   .sayt > .fingertips > :nth-child(1) > h2 {
     font-size: 30px;
+  }
+  .sayt > .fingertips > :nth-child(1) > p {
+    margin-bottom: 15px;
+  }
+  .sayt > .fingertips > :nth-child(1) > div {
+    margin-top: 20px;
+  }
+  .sayt > .fingertips > :nth-child(2) {
+    min-height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .sayt > .fingertips > :nth-child(2) > img {
+    width: auto;
+    height: 400px;
+  }
+  .sayt > .restaurant {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .sayt > .restaurant > h5 {
+    margin-bottom: 30px;
+  }
+  .sayt > .restaurant > div > img {
+    margin: 20px;
+  }
+  .sayt > .hassle {
+    padding: 0;
   }
   .sayt > .clients > .clients__cards {
     justify-content: space-evenly;
@@ -99,6 +128,28 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .sayt > .system {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .sayt > .system > h2 {
+    font-size: 30px;
+  }
+  .sayt > .great {
+    padding-bottom: 30px;
+  }
+  .sayt > .great > .great__cards > .great__cards__card {
+    margin-top: 50px;
+  }
+  .sayt > .great > .great__cards > .great__cards__card > h2 {
+    font-size: 30px;
+  }
+  .sayt > .great > button {
+    margin-top: 30px !important;
+  }
+  .sayt > .clients {
+    text-align: center;
+  }
   .sayt > .clients > .clients__cards {
     justify-content: space-evenly;
   }
